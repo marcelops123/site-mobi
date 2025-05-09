@@ -19,8 +19,8 @@ const Footer = () => {
           </div>
           
           <div className="flex flex-col items-center md:items-end">
-            <p className="text-sm text-gray-400 flex items-center">
-              Feito com <Heart size={16} className="mx-1 text-red-500" /> para a juventude MOBI
+            <p className="text-sm text-gray-400 items-center">
+              Feito por <b>Marcelo Paixão</b> para a juventude MOBI
             </p>
             <p className="text-sm text-gray-400">&copy; {currentYear} - Todos os direitos reservados</p>
           </div>
