@@ -15,7 +15,7 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
     <div className={`mb-10 ${center ? 'text-center' : ''}`}>
       <h2 className="section-title">{title}</h2>
       {subtitle && (
-        <p className="text-neutral-900 leading-relaxed">
+        <p className="text-neutral-900 font-medium leading-relaxed">
           {subtitle}
         </p>
       )}
