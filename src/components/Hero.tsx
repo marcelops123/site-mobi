@@ -16,8 +16,8 @@ const Hero: React.FC<HeroProps> = ({ title, subtitle, imageUrl }) => {
   };
 
   return (
-    <div 
-      className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden"
+    <div
+      className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden rounded-xl"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(${imageUrl})`,
         backgroundSize: 'cover',
@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ title, subtitle, imageUrl }) => {
         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
           {subtitle}
         </p>
-        <button 
+        <button
           onClick={scrollToContent}
           className="p-3 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-sm transition-all duration-300 animate-bounce"
           aria-label="Rolar para baixo"

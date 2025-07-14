@@ -74,10 +74,10 @@ const Home: React.FC = () => {
         </div>
       </section>
       
-      <section className="py-16 bg-mobi-blue-600 text-white">
+      <section className="py-16 bg-orange-300 text-white">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold mb-6">Venha nos Conhecer!</h2>
-          <p className="max-w-2xl mx-auto mb-8 leading-relaxed">
+          <SectionTitle title='Venha nos Conhecer'/>
+          <p className="max-w-2xl text-neutral-900 font-medium mx-auto mb-8 leading-relaxed">
             Junte-se a nós nas nossas reuniões semanais e faça parte desta família. Temos um lugar especial para você!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

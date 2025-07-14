@@ -32,10 +32,9 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
           <NavLink to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full overflow-hidden">
+            <div className="w-40 h-50 overflow-hidden p-3">
               <MobiLogo />
             </div>
-            <span className="font-bold text-xl text-mobi-blue-600">MOBI</span>
           </NavLink>
 
           {/* Desktop menu */}
