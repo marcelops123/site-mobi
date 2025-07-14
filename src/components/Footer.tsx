@@ -1,4 +1,3 @@
-import { Heart } from 'lucide-react';
 import MobiLogo from '../../public/assets/MobiLogo';
 
 const Footer = () => {
