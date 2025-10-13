@@ -45,25 +45,23 @@ const Cultos: React.FC = () => {
                 </div>
               </div>
               
-              {/* Culto de Celebração */}
               <div className="card p-6 border-l-4 border-mobi-accent-500">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 rounded-full bg-mobi-accent-100 flex items-center justify-center">
                     <Calendar size={24} className="text-mobi-accent-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-xl">Culto de Celebração</h3>
-                    <p className="text-gray-600">Para toda a Igreja</p>
+                    <h3 className="font-semibold text-xl">Grupo de Processo</h3>
+                    <p className="text-gray-600">18 homens e um segredo</p>
                   </div>
                 </div>
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
                     <Clock size={18} className="text-mobi-accent-500" />
-                    <span className="font-medium">Domingos às 18:00</span>
+                    <span className="font-medium">Um Sábado por mês às 19:00</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
-                    O culto principal da igreja, com a participação de todas as 
-                    faixas etárias. Momento de adoração e edificação espiritual.
+                    Reunião mensal dos homens da MOBI, um tempo de conversa, estudo bíblico, louvor e comunhão.
                   </p>
                 </div>
               </div>
@@ -75,18 +73,17 @@ const Cultos: React.FC = () => {
                     <Calendar size={24} className="text-green-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-xl">Estudo Bíblico</h3>
-                    <p className="text-gray-600">Aprofundamento na Palavra</p>
+                    <h3 className="font-semibold text-xl">Grupo de Processo</h3>
+                    <p className="text-gray-600">Essência das Déboras</p>
                   </div>
                 </div>
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
                     <Clock size={18} className="text-green-500" />
-                    <span className="font-medium">Quartas às 19:30</span>
+                    <span className="font-medium">Um Sábado por mês às 19:00</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
-                    Um momento de estudo mais aprofundado das Escrituras, 
-                    com ensino expositivo e oportunidade para perguntas.
+                  Reunião mensal das mulheres da MOBI, um tempo de conversa, estudo bíblico, louvor e comunhão.
                   </p>
                 </div>
               </div>
@@ -98,18 +95,17 @@ const Cultos: React.FC = () => {
                     <Calendar size={24} className="text-purple-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-xl">Reunião de Oração</h3>
-                    <p className="text-gray-600">Intercessão e Comunhão</p>
+                    <h3 className="font-semibold text-xl">MOBI FUN</h3>
+                    <p className="text-gray-600">Jogos e Comunhão</p>
                   </div>
                 </div>
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
                     <Clock size={18} className="text-purple-500" />
-                    <span className="font-medium">Terças às 06:00</span>
+                    <span className="font-medium">Sábados às 19:00</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
-                    Um tempo dedicado à oração pelos membros da igreja, pelos 
-                    trabalhos e projetos, e pelas necessidades da comunidade.
+                    Um tempo dedicado comunhão, diversão e interação entre os jovens.
                   </p>
                 </div>
               </div>
@@ -118,7 +114,7 @@ const Cultos: React.FC = () => {
         </div>
       </section>
       
-      <section className="py-16 bg-orange-300">
+      <section className="py-16 bg-yellow-400">
         <div className="container-custom">
           <SectionTitle 
             title="Eventos Especiais" 
@@ -129,26 +125,24 @@ const Cultos: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-3 gap-6">
               <div className="card p-6 hover:shadow-lg transition-shadow">
-                <h3 className="font-semibold text-xl mb-2 text-mobi-blue-600">Retiro Anual</h3>
+                <h3 className="font-semibold text-xl mb-2 text-mobi-blue-600">Acampa Mobi</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Um final de semana especial com os jovens para comunhão, 
-                  edificação espiritual e muita diversão.
+                  Acampamento Mobi, durante o período do carnaval, momentos de louvor, adoração e comunhão
                 </p>
               </div>
               
               <div className="card p-6 hover:shadow-lg transition-shadow">
-                <h3 className="font-semibold text-xl mb-2 text-mobi-blue-600">Congressos</h3>
+                <h3 className="font-semibold text-xl mb-2 text-mobi-blue-600">Conferência -</h3>
+                <h3 className="font-semibold text-lg mb-2 text-mobi-blue-600">Até que ele venha</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Eventos temáticos com preletores convidados para abordar 
-                  assuntos relevantes para os jovens.
+                  Conferência realizada pela MOBI, com palestrantes, louvor e estudo bíblico.
                 </p>
               </div>
               
               <div className="card p-6 hover:shadow-lg transition-shadow">
-                <h3 className="font-semibold text-xl mb-2 text-mobi-blue-600">Ações Sociais</h3>
+                <h3 className="font-semibold text-xl mb-2 text-mobi-blue-600">Louvorzão</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Projetos para ajudar a comunidade, como distribuição de 
-                  alimentos, visitas a asilos e orfanatos.
+                  Louvorzão Mobi, um tempo de louvor, adoração e comunhão entre os jovens e outras igrejas de Paracatu.
                 </p>
               </div>
             </div>
