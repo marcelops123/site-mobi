@@ -25,7 +25,7 @@ const Home: React.FC = () => {
         additionalTransfrom={0}
         arrows
         autoPlay
-        autoPlaySpeed={1000}
+        autoPlaySpeed={3000}
         centerMode={false}
         className='h-72 mt-3 rounded-xl overflow-hidden'
         containerClass="container-with-dots"
@@ -88,13 +88,16 @@ const Home: React.FC = () => {
 
           <div className="max-w-4xl mx-auto">
             <p className="text-gray-700 mb-6 leading-relaxed">
-              A <strong>MOBI - Mocidade Batista Independente</strong> é um grupo de jovens comprometidos com a Palavra de Deus e em fazer a diferença na igreja e na sociedade. Nosso objetivo é criar um ambiente de comunhão, aprendizado e crescimento espiritual para os jovens, ajudando cada um a desenvolver seu relacionamento com Deus e a servir com seus dons e talentos.
+              Nós somos a <strong>MOBI - Mocidade Batista Independente</strong> e fazemos parte da Igreja Batista Independente de Paracatu.
             </p>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Fazemos parte da Igreja Batista Independente e realizamos diversas atividades como estudos bíblicos, eventos especiais, retiros, ações sociais e momentos de comunhão. Acreditamos que os jovens têm um papel fundamental na igreja e na propagação do evangelho.
+            Somos um ministério relevante que busca crescer constantemente no conhecimento de Cristo por meio da Palavra. Nosso objetivo é ser exemplo para os fiéis na palavra, no procedimento, no amor, na fé e na pureza (1Tm 4:12).
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Se você é um jovem em busca de crescimento espiritual e amizades verdadeiras, venha nos conhecer! Todos são bem-vindos para participar de nossas reuniões e atividades.
+            Somos impulsionados pelo amor a Cristo, dedicando a nossa mocidade para o louvor de Sua glória, pois entendemos que, mesmo jovens, somos uma geração escolhida e sedenta por Jesus.
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+            Venha fazer parte deste tempo e desta geração. Venha avançar conosco!
             </p>
           </div>
         </div>
