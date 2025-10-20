@@ -14,6 +14,7 @@ const ProdutoDetalhe: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     // Simulando uma busca no banco de dados
     const produtoEncontrado = produtos.find(p => p.id === id);
     
@@ -78,6 +79,7 @@ const ProdutoDetalhe: React.FC = () => {
           {/* Imagem do produto */}
           <div className="h-full">
             <img
+            style={{maxHeight: 600}}
               src={produto.imagem}
               alt={produto.nome}
               className="w-full h-full object-cover"

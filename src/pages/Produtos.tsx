@@ -10,7 +10,7 @@ const Produtos: React.FC = () => {
       <Hero 
         title="Nossos Produtos" 
         subtitle="Camisetas e outros itens da MOBI"
-        imageUrl="https://images.pexels.com/photos/5872361/pexels-photo-5872361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        imageUrl="./assets/camiseta2.JPG"
       />
       
       <section className="py-16 bg-white">

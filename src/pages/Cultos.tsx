@@ -9,7 +9,7 @@ const Cultos: React.FC = () => {
       <Hero 
         title="Nossos Cultos" 
         subtitle="Venha participar dos nossos encontros semanais"
-        imageUrl="https://images.pexels.com/photos/3875420/pexels-photo-3875420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        imageUrl="./assets/culto15.JPG"
       />
       
       <section className="py-16 bg-white">

@@ -27,7 +27,7 @@ const Home: React.FC = () => {
         autoPlay
         autoPlaySpeed={3000}
         centerMode={false}
-        className='h-72 mt-3 rounded-xl overflow-hidden'
+        className='h-80 mt-3 rounded-xl overflow-hidden'
         containerClass="container-with-dots"
         dotListClass=""
         focusOnSelect={false}
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
         itemClass=""
         keyBoardControl
         minimumTouchDrag={80}
-        pauseOnHover
+        pauseOnHover={false}
         renderArrowsWhenDisabled={false}
         renderButtonGroupOutside={false}
         renderDotsOutside={false}
@@ -73,11 +73,19 @@ const Home: React.FC = () => {
         slidesToSlide={1}
         swipeable={false}
       >
-        <img style={{ height: '100%', width: '100%' }} src='./assets/mobi-bg-altar.jpg'></img>
-        <img style={{ height: '100%', width: '100%' }} src='./assets/bg-retiro.jpeg'></img>
-        <img style={{ height: '100%', width: '100%' }} src='./assets/mobi-bg-altar.jpg'></img>
-        <img style={{ height: '100%', width: '100%' }} src='./assets/bg-retiro.jpeg'></img>
-        <img style={{ height: '100%', width: '100%' }} src='./assets/mobi-bg-altar.jpg'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto3.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto2.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto6.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto11.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto10.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto9.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto15.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto5.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto7.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto8.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto12.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto13.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto14.JPG'></img>
       </Carousel>
       <section className="py-16 bg-white">
         <div className="container-custom">
@@ -91,13 +99,13 @@ const Home: React.FC = () => {
               Nós somos a <strong>MOBI - Mocidade Batista Independente</strong> e fazemos parte da Igreja Batista Independente de Paracatu.
             </p>
             <p className="text-gray-700 mb-6 leading-relaxed">
-            Somos um ministério relevante que busca crescer constantemente no conhecimento de Cristo por meio da Palavra. Nosso objetivo é ser exemplo para os fiéis na palavra, no procedimento, no amor, na fé e na pureza (1Tm 4:12).
+              Somos um ministério relevante que busca crescer constantemente no conhecimento de Cristo por meio da Palavra. Nosso objetivo é ser exemplo para os fiéis na palavra, no procedimento, no amor, na fé e na pureza (1Tm 4:12).
             </p>
             <p className="text-gray-700 leading-relaxed">
-            Somos impulsionados pelo amor a Cristo, dedicando a nossa mocidade para o louvor de Sua glória, pois entendemos que, mesmo jovens, somos uma geração escolhida e sedenta por Jesus.
+              Somos impulsionados pelo amor a Cristo, dedicando a nossa mocidade para o louvor de Sua glória, pois entendemos que, mesmo jovens, somos uma geração escolhida e sedenta por Jesus.
             </p>
             <p className="text-gray-700 leading-relaxed">
-            Venha fazer parte deste tempo e desta geração. Venha avançar conosco!
+              Venha fazer parte deste tempo e desta geração. Venha avançar conosco!
             </p>
           </div>
         </div>
