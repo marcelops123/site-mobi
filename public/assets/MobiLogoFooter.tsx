@@ -6,7 +6,7 @@ const MobiLogoFooter: React.FC = () => {
       src="./assets/logo_simbolo_yellow.png"
       alt="Logo da MOBI"
       crossOrigin='anonymous'
-      className="w-full h-full object-cover"
+      className="w-full h-full object-contain"
     />
   );
 };

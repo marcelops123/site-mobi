@@ -1,13 +1,9 @@
-import React from 'react';
 import { Calendar, MapPin, Users } from 'lucide-react';
-import Hero from '../components/Hero';
-import SectionTitle from '../components/SectionTitle';
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
+import Hero from '../components/Hero';
+import SectionTitle from '../components/SectionTitle';
 const Home: React.FC = () => {
-
-
-
 
   return (
     <div>
@@ -16,10 +12,6 @@ const Home: React.FC = () => {
         subtitle="Jovens unidos para fazer a diferença na igreja e na sociedade."
         imageUrl="./assets/bg-retiro.webp"
       />
-
-
-
-
 
       <Carousel
         additionalTransfrom={0}
@@ -65,13 +57,13 @@ const Home: React.FC = () => {
             partialVisibilityGutter: 30
           }
         }}
-        rewindWithAnimation={false}
+        rewindWithAnimation={true}
         rtl={false}
         shouldResetAutoplay
         showDots={false}
         draggable={false}
         slidesToSlide={1}
-        swipeable={false}
+        swipeable={true}
       >
         <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto3.webp'></img>
         <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto2.webp'></img>
