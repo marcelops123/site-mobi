@@ -119,25 +119,6 @@ const Home: React.FC = () => {
           />
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="card p-6 text-center">
-              <div className="w-16 h-16 rounded-full bg-yellow-200 flex items-center justify-center mx-auto mb-4">
-                <Users size={28} className="text-mobi-blue-600" />
-              </div>
-              <h3 className="font-semibold text-xl mb-3">Comunhão</h3>
-              <p className="text-gray-600">
-                Valorizamos a amizade, o companheirismo e o suporte mútuo entre os jovens, criando laços que vão além das reuniões semanais.
-              </p>
-            </div>
-
-            <div className="card p-6 text-center">
-              <div className="w-16 h-16 rounded-full bg-yellow-200 flex items-center justify-center mx-auto mb-4">
-                <Calendar size={28} className="text-mobi-blue-600" />
-              </div>
-              <h3 className="font-semibold text-xl mb-3">Compromisso</h3>
-              <p className="text-gray-600">
-                Encorajamos o compromisso com Deus, com a Palavra e com a igreja, buscando coerência entre fé e prática no dia a dia.
-              </p>
-            </div>
 
             <div className="card p-6 text-center">
               <div className="w-16 h-16 rounded-full bg-yellow-200 flex items-center justify-center mx-auto mb-4">
@@ -145,9 +126,54 @@ const Home: React.FC = () => {
               </div>
               <h3 className="font-semibold text-xl mb-3">Missão</h3>
               <p className="text-gray-600">
-                Acreditamos na importância de compartilhar o evangelho e fazer diferença na comunidade através de ações práticas e testemunho.
+                <div>
+                  <h3>Crescer em Cristo. Inspirar pelo exemplo. Transformar nossa geração.</h3>
+                </div>
+                <br></br>
+                <div>
+                  <h3>Queremos ser jovens apaixonados pela Palavra, vivendo com propósito e refletindo Jesus em cada atitude — na palavra, no amor, na fé e na pureza</h3>
+                </div>
+                <p className='p-1 text-gray-600'>
+                  — 1 Timóteo 4:12
+                </p>
               </p>
             </div>
+
+            <div className="card p-6 text-center">
+              <div className="w-16 h-16 rounded-full bg-yellow-200 flex items-center justify-center mx-auto mb-4">
+                <Users size={28} className="text-mobi-blue-600" />
+              </div>
+              <h3 className="font-semibold text-xl mb-3">Visão</h3>
+
+              <p className="text-gray-600">
+                Ser uma geração relevante, firmada em Cristo e movida pelo Espírito Santo.
+              </p>
+              <p className='mt-2 text-gray-600'>
+                Sonhamos com uma juventude que vive o Evangelho de forma autêntica, influencia a sociedade com esperança e manifesta a glória de Deus em tudo o que faz
+              </p>
+              <p className='mt-3 text-gray-600'>
+                — 1 Pedro 2:9
+              </p>
+            </div>
+
+
+            <div className="card p-6 text-center">
+              <div className="w-16 h-16 rounded-full bg-yellow-200 flex items-center justify-center mx-auto mb-4">
+                <Calendar size={28} className="text-mobi-blue-600" />
+              </div>
+              <h3 className="font-semibold text-xl mb-3">Comunhão</h3>
+              <p className="text-gray-600">
+                Crescer juntos é o nosso estilo de vida.
+              </p>
+              <p className='p-3 text-gray-600'>
+                Somos uma família de fé. Valorizamos o tempo juntos, o cuidado mútuo e a unidade que nos fortalece para cumprir o chamado de Deus.
+              </p>
+              <p className='text-gray-600'>
+                - Salmos 133:1
+              </p>
+            </div>
+
+
           </div>
         </div>
       </section>

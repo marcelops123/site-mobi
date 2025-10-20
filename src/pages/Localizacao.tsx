@@ -44,7 +44,7 @@ const Localizacao: React.FC = () => {
                   <div>
                     <h3 className="font-medium text-lg mb-1">Telefone</h3>
                     <p className="text-gray-600">
-                      (11) 3456-7890
+                      (38) 9 9748-9630
                     </p>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ const Localizacao: React.FC = () => {
                   <div>
                     <h3 className="font-medium text-lg mb-1">E-mail</h3>
                     <p className="text-gray-600">
-                      contato@mobi.org.br
+                    mobiparacatu@gmail.com
                     </p>
                   </div>
                 </div>
@@ -68,9 +68,7 @@ const Localizacao: React.FC = () => {
                   <div>
                     <h3 className="font-medium text-lg mb-1">Horário de Atendimento</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Segunda a Sexta: 9h às 17h<br />
-                      Sábado: 9h às 12h<br />
-                      Domingo: 9h e 19h
+                      Segunda a Sábado: 9h às 19:30h (WhatsApp)
                     </p>
                   </div>
                 </div>
