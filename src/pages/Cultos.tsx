@@ -35,7 +35,7 @@ const Cultos: React.FC = () => {
                 </div>
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
-                    <Clock size={18} className="text-mobi-blue-500" />
+                    <Clock size={22} className="text-mobi-blue-500" />
                     <span className="font-medium">(1º Sábado de cada mês às 19h30) na IBI</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
@@ -59,7 +59,7 @@ const Cultos: React.FC = () => {
                 </div>
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
-                    <Clock size={18} className="text-mobi-accent-500" />
+                    <Clock size={22} className="text-mobi-accent-500" />
                     <span className="font-medium">(2º Sábado de Cada mês às 19h30) na casa do Eliabe</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
@@ -84,7 +84,7 @@ const Cultos: React.FC = () => {
                 </div>
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
-                    <Clock size={18} className="text-green-500" />
+                    <Clock size={22} className="text-green-500" />
                     <span className="font-medium">(2º sábado de cada mês as 19h30) na casa da Sarah</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
@@ -109,7 +109,7 @@ const Cultos: React.FC = () => {
                 </div>
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
-                    <Clock size={18} className="text-purple-500" />
+                    <Clock size={22} className="text-purple-500" />
                     <span className="font-medium">Terceiro sábado de cada mês às 19:00</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
@@ -133,7 +133,7 @@ const Cultos: React.FC = () => {
                 </div>
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
-                    <Clock size={18} className="text-purple-500" />
+                    <Clock size={22} className="text-purple-500" />
                     <span className="font-medium">(4º sábado de cada mês as 19h30) na IBI</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
