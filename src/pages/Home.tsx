@@ -9,7 +9,7 @@ const Home: React.FC = () => {
     <div>
       <Hero
         title="MOBI - Mocidade Batista Independente"
-        subtitle="Jovens unidos para fazer a diferença na igreja e na sociedade."
+        subtitle="Jovens unidos para fazer a diferença na igreja e na sociedade"
         imageUrl="./assets/bg-retiro.webp"
       />
 
