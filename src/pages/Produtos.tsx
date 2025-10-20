@@ -10,7 +10,7 @@ const Produtos: React.FC = () => {
       <Hero 
         title="Nossos Produtos" 
         subtitle="Camisetas e outros itens da MOBI"
-        imageUrl="./assets/camiseta2.JPG"
+        imageUrl="./assets/camiseta2.webp"
       />
       
       <section className="py-16 bg-white">
@@ -43,7 +43,7 @@ const Produtos: React.FC = () => {
             <ul className="text-left space-y-3 text-gray-700">
               <li className="flex items-start gap-2">
                 <span className="text-mobi-blue-500 font-bold">•</span>
-                <span>Entrega disponível para toda a cidade e região metropolitana.</span>
+                <span>Entrega disponível para toda a cidade.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-mobi-blue-500 font-bold">•</span>

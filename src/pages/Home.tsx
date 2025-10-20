@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <Hero
         title="MOBI - Mocidade Batista Independente"
         subtitle="Jovens unidos para fazer a diferença na igreja e na sociedade."
-        imageUrl="./assets/bg-retiro.jpeg"
+        imageUrl="./assets/bg-retiro.webp"
       />
 
 
@@ -73,19 +73,19 @@ const Home: React.FC = () => {
         slidesToSlide={1}
         swipeable={false}
       >
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto3.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto2.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto6.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto11.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto10.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto9.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto15.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto5.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto7.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto8.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto12.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto13.JPG'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto14.JPG'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto3.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto2.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto6.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto11.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto10.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto9.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto15.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto5.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto7.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto8.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto12.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto13.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto14.webp'></img>
       </Carousel>
       <section className="py-16 bg-white">
         <div className="container-custom">

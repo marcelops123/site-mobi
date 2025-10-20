@@ -10,7 +10,7 @@ export const produtos: Produto[] = [
     tamanhos: ['P', 'M', 'G'],
     quantidade: 15,
     prazoEntrega: '7 dias úteis',
-    imagem: '../assets/camiseta1.JPG'
+    imagem: '../assets/camiseta1.webp'
   },
   {
     id: '2',
@@ -21,7 +21,7 @@ export const produtos: Produto[] = [
     tamanhos: ['P', 'M', 'G'],
     quantidade: 8,
     prazoEntrega: '7 dias úteis',
-    imagem: '../assets/camiseta2.JPG'
+    imagem: '../assets/camiseta2.webp'
   },
   {
     id: '3',
@@ -32,6 +32,6 @@ export const produtos: Produto[] = [
     tamanhos: ['P', 'M', 'G'],
     quantidade: 5,
     prazoEntrega: '10 dias úteis',
-    imagem: '../assets/camiseta3.JPG'
+    imagem: '../assets/camiseta3.webp'
   }
 ];

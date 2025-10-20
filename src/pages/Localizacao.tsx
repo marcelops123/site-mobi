@@ -9,7 +9,7 @@ const Localizacao: React.FC = () => {
       <Hero
         title="Nossa Localização"
         subtitle="Saiba como chegar até nós"
-        imageUrl="./assets/culto13.JPG"
+        imageUrl="./assets/culto13.webp"
       />
 
       <section className="py-16 bg-white">
