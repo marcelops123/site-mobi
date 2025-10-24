@@ -65,19 +65,19 @@ const Home: React.FC = () => {
         slidesToSlide={1}
         swipeable={true}
       >
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto3.webp'></img>
         <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto2.webp'></img>
         <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto6.webp'></img>
         <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto11.webp'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto10.webp'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto9.webp'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto15.webp'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto5.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto3.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto16.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto25.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto24.webp'></img>
         <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto7.webp'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto8.webp'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto12.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto19.webp'></img>
         <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto13.webp'></img>
-        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto14.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto22.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto5.webp'></img>
+        <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src='./assets/culto17.webp'></img>
       </Carousel>
       <section className="py-16 bg-white">
         <div className="container-custom">

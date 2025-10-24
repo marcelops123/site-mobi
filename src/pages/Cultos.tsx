@@ -36,7 +36,7 @@ const Cultos: React.FC = () => {
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
                     <Clock size={22} className="text-mobi-blue-500" />
-                    <span className="font-medium">(1º Sábado de cada mês às 19h30) na IBI</span>
+                    <span className="font-medium">1º Sábado de cada mês às 19h30 na IBI</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
                     O MOBILIZA é o culto principal da MOBI, inauguramos a cada primeiro sábado do mês, um tempo de adoração, Palavra e comunhão.
@@ -60,7 +60,7 @@ const Cultos: React.FC = () => {
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
                     <Clock size={22} className="text-mobi-accent-500" />
-                    <span className="font-medium">(2º Sábado de Cada mês às 19h30) na casa do Eliabe</span>
+                    <span className="font-medium">2º Sábado de Cada mês às 19h30 na casa do Eliabe</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
                     Este é um grupo exclusivo para os rapazes da MOBI — um ambiente de crescimento, onde somos moldados pelo caráter de Cristo, através da vulnerabilidade e discipulado. Aqui, falamos sobre propósito, identidade e pureza, enfrentando juntos os desafios da vida cristã masculina.
@@ -85,7 +85,7 @@ const Cultos: React.FC = () => {
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
                     <Clock size={22} className="text-green-500" />
-                    <span className="font-medium">(2º sábado de cada mês as 19h30) na casa da Sarah</span>
+                    <span className="font-medium">2º sábado de cada mês as 19h30 na casa da Sarah</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
                     O Essência das Déboras é um grupo voltado para as jovens mulheres da MOBI, inspirado na força e sensibilidade de Débora, mulher de fé e coragem.
@@ -134,7 +134,7 @@ const Cultos: React.FC = () => {
                 <div className="pl-16">
                   <div className="flex items-center gap-2 mb-2">
                     <Clock size={22} className="text-purple-500" />
-                    <span className="font-medium">(4º sábado de cada mês as 19h30) na IBI</span>
+                    <span className="font-medium">4º sábado de cada mês as 19h30 na IBI</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
                     O No Secreto é o coração pulsante da MOBI — um culto de rendição, intercessão e intimidade com o Pai
@@ -171,7 +171,7 @@ const Cultos: React.FC = () => {
 
               <div className="card p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-semibold text-xl mb-2 text-mobi-blue-600">Conferência -</h3>
-                <h3 className="font-semibold text-lg mb-2 text-mobi-blue-600">Até que ele venha</h3>
+                <h3 className="font-semibold text-lg mb-2 text-mobi-blue-600">Até que Ele venha</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Conferência realizada pela MOBI, com palestrantes, louvor e estudo bíblico.
                 </p>

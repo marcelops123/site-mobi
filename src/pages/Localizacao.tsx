@@ -29,10 +29,10 @@ const Localizacao: React.FC = () => {
                   <div>
                     <h3 className="font-medium text-lg mb-1">Endereço</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Rua São Vicente, 383<br />
+                      Rua São Vicente, 371<br />
                       Bairro Centro<br />
                       Paracatu - MG<br />
-                      CEP: 38600-000
+                      CEP: 38600-232
                     </p>
                   </div>
                 </div>
